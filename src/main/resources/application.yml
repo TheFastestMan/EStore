@@ -1,0 +1,11 @@
+spring:
+  application:
+   name: EStore
+  datasource:
+    url: jdbc:postgresql://localhost:5431/store
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+
